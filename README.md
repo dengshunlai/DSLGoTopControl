@@ -1,0 +1,2 @@
+# DSLGoTopControl
+go top

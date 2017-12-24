@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DDC68C981FEFB5180081D69E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DDC68C961FEFB5170081D69E /* LICENSE */; };
+		DDC68C991FEFB5180081D69E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DDC68C971FEFB5170081D69E /* README.md */; };
+		DDC68C9B1FEFB6230081D69E /* arrow_top.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC68C9A1FEFB6230081D69E /* arrow_top.png */; };
 		DDE8B3E31FED3664003D60F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE8B3E21FED3664003D60F5 /* AppDelegate.m */; };
 		DDE8B3E61FED3664003D60F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE8B3E51FED3664003D60F5 /* ViewController.m */; };
 		DDE8B3E91FED3664003D60F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDE8B3E71FED3664003D60F5 /* Main.storyboard */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DDC68C961FEFB5170081D69E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DDC68C971FEFB5170081D69E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DDC68C9A1FEFB6230081D69E /* arrow_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_top.png; sourceTree = "<group>"; };
 		DDE8B3DE1FED3664003D60F5 /* DSLGoTopControlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSLGoTopControlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE8B3E11FED3664003D60F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DDE8B3E21FED3664003D60F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -84,6 +90,8 @@
 		DDE8B3D51FED3664003D60F5 = {
 			isa = PBXGroup;
 			children = (
+				DDC68C961FEFB5170081D69E /* LICENSE */,
+				DDC68C971FEFB5170081D69E /* README.md */,
 				DDE8B4131FED369E003D60F5 /* DSLGoTopControl */,
 				DDE8B3E01FED3664003D60F5 /* DSLGoTopControlExample */,
 				DDE8B3F91FED3664003D60F5 /* DSLGoTopControlExampleTests */,
@@ -141,6 +149,7 @@
 			children = (
 				DDE8B4141FED36BA003D60F5 /* DSLGoTopControl.h */,
 				DDE8B4151FED36BA003D60F5 /* DSLGoTopControl.m */,
+				DDC68C9A1FEFB6230081D69E /* arrow_top.png */,
 			);
 			name = DSLGoTopControl;
 			path = ../DSLGoTopControl;
@@ -253,7 +262,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDE8B3EE1FED3664003D60F5 /* LaunchScreen.storyboard in Resources */,
+				DDC68C9B1FEFB6230081D69E /* arrow_top.png in Resources */,
 				DDE8B3EB1FED3664003D60F5 /* Assets.xcassets in Resources */,
+				DDC68C991FEFB5180081D69E /* README.md in Resources */,
+				DDC68C981FEFB5180081D69E /* LICENSE in Resources */,
 				DDE8B3E91FED3664003D60F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

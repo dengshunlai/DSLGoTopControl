@@ -31,13 +31,10 @@
     _goTopControl = [[DSLGoTopControl alloc] init];
     [_goTopControl addTarget:self action:@selector(goTop) forControlEvents:UIControlEventTouchUpInside];
     [_goTopControl placeIn:self.view];
-    
-    NSLog(@"123");
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 #pragma mark - Action

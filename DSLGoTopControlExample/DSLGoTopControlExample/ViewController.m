@@ -14,7 +14,6 @@
 @property (strong, nonatomic) UITableView *tableView;
 @property (strong, nonatomic) DSLGoTopControl *goTopControl;
 
-
 @end
 
 @implementation ViewController

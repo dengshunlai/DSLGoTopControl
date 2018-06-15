@@ -31,6 +31,8 @@
     _goTopControl = [[DSLGoTopControl alloc] init];
     [_goTopControl addTarget:self action:@selector(goTop) forControlEvents:UIControlEventTouchUpInside];
     [_goTopControl placeIn:self.view];
+    
+    NSLog(@"..");
 }
 
 - (void)didReceiveMemoryWarning {
